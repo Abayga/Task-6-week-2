@@ -55,28 +55,18 @@
 
 //11 Task
 
-let kvadrat = document.querySelector('.kvadrat')
+let kvadrat = document.getElementById('kvadrat')
 let right = document.querySelector('.right')
 let left = document.querySelector('.left')
 
-right.addEventListener('click', function(event){
-    console.log()
+right.addEventListener('click', function(){
+    kvadrat.style.transform += 'translateX(100px)'
 })
-
 left.addEventListener('click', function(event){
-    
+    kvadrat.style.transform += 'translateX(-100px)'
 })
 
 
- 
-
-
-//function mah () {
-    //     x = document.getElementById("kvadrat").offsetLeft;
-    //     xn = x + 50;
-    //     document.getElementById("kvadrat").style.left = xn+"px"
-    //     }
-    
 
 //12 Task
 // document.addEventListener('mousemove', function(event){
