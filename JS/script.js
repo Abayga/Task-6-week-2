@@ -55,16 +55,16 @@
 
 //11 Task
 
-let kvadrat = document.getElementById('kvadrat')
-let right = document.querySelector('.right')
-let left = document.querySelector('.left')
+// let kvadrat = document.getElementById('kvadrat')
+// let right = document.querySelector('.right')
+// let left = document.querySelector('.left')
 
-right.addEventListener('click', function(){
-    kvadrat.style.transform += 'translateX(100px)'
-})
-left.addEventListener('click', function(event){
-    kvadrat.style.transform += 'translateX(-100px)'
-})
+// right.addEventListener('click', function(){
+//     kvadrat.style.transform += 'translateX(100px)'
+// })
+// left.addEventListener('click', function(event){
+//     kvadrat.style.transform += 'translateX(-100px)'
+// })
 
 
 
@@ -72,3 +72,26 @@ left.addEventListener('click', function(event){
 // document.addEventListener('mousemove', function(event){
 //     console.log('X '+ event.clientX, 'Y ' + event.clientY)
 // })
+
+
+
+//To do list
+let btn = document.querySelector('#btn')
+let list = document.querySelector('.list')
+
+btn.addEventListener('click', function(event){
+    let Do1 = document.querySelector('.inp1').value;
+    let Do2 = document.querySelector('.inp2').value;
+    let Do3 = document.querySelector('.inp3').value;
+    event.preventDefault()
+
+    if( Do1 && Do2 && Do3){
+        list.innerText = 'Ваше 1 задание: ' + Do1
+        +'\n Ваше 2 задание: ' + Do2
+        +'\n Ваше 3 задание: ' + Do3
+    }
+    else{
+        alert("Введите все 3 задания")
+    }
+}
+)
