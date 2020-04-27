@@ -1,3 +1,36 @@
+/* body{
+    background-color: bisque;
+}
+.kvadrat{
+background-color: blue;
+height: 200px;
+width: 200px;
+}
+.input{
+    display: flex;
+}
+.oform{
+    width: 30%;
+    height: 200px;
+    background-color: #008080;
+    margin: 20px 50px;
+    border-radius:  20px;
+    
+}
+.input{
+    font-family: 'Oswald', sans-serif;
+}
+.list{
+    font-family: 'Oswald', sans-serif;
+    margin-left: 50px;
+}
+h2{
+    width: 60%;
+    font-family: 'Oswald', sans-serif;
+    margin: 0 auto;
+} */
+
+
 
 /* To do list Pro */
 body{
